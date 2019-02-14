@@ -20,12 +20,16 @@ input#content{
     box-shadow: rgba(255,255,255,0.3) 0 0 10px;
     transition: width 0.4s;
     -webkit-transition: width 0.4s; /* Safari */
+    -moz-transition: width 0.4s;
+    min-width: 200px;
 }
 
 input#content:hover{
     width: 50%;
+    min-width: 280px;
     transition: width 0.4s;
     -webkit-transition: width 0.4s; /* Safari */
+    -moz-transition: width 0.4s;
 }
 
 #content.active{
