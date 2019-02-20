@@ -4,6 +4,7 @@ function onkeydown_handler(event) {
         var text = $("#content").val();
         // location.href = "http://www.baidu.com.cn/s?wd=" + text + "&cl=3";
         window.open("http://www.baidu.com.cn/s?wd=" + text + "&cl=3");
+        $("#content").val("");
     }
 }
 

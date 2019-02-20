@@ -1,6 +1,6 @@
 body{
     /*background: url("https://i.loli.net/2019/02/12/5c61a0fe7943a.jpg");*/
-    min-height: 480px;
+    min-height: 1080px;
     background: url("https://i.loli.net/2019/02/14/5c65842cdf470.jpg") no-repeat;
     background-size: cover;
     transition: width 0.4s;
