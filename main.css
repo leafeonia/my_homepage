@@ -1,6 +1,7 @@
-body{
+html,body{
     /*background: url("https://i.loli.net/2019/02/12/5c61a0fe7943a.jpg");*/
-    min-height: 1080px;
+    /*min-height: 640px;*/
+    height: 100%;
     background: url("https://i.loli.net/2019/02/14/5c65842cdf470.jpg") no-repeat;
     background-size: cover;
     transition: width 0.4s;
@@ -13,7 +14,7 @@ input#content{
     font-size: 20px;
     width: 30%;
     display: block;
-    margin: 30% auto;
+    margin: 28% auto;
     text-align: center;
     vertical-align: middle;
     border: transparent solid 5px;
@@ -22,12 +23,10 @@ input#content{
     transition: width 0.4s;
     -webkit-transition: width 0.4s; /* Safari */
     -moz-transition: width 0.4s;
-    min-width: 200px;
 }
 
 input#content:hover{
     width: 50%;
-    min-width: 280px;
     transition: width 0.4s;
     -webkit-transition: width 0.4s; /* Safari */
     -moz-transition: width 0.4s;
@@ -37,3 +36,21 @@ input#content:hover{
     background-color: rgba(255,255,255,0.3);
     color: #000;
 }
+
+.container{
+    height: 100%;
+}
+
+
+
+@media screen and (max-device-width:960px){
+    input#content{
+        width: 60%;
+
+    }
+
+    input#content:hover{
+        width: 80%;
+    }
+}
+
